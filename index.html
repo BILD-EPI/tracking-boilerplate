@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Buttons</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Center content */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+    /* Button container styling */
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    /* Button styling */
+    .button {
+      width: 150px;
+      padding: 15px;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    /* Individual button colors */
+    .button-1 {
+      background-color: #4b4b4b; /* Dark grey */
+    }
+    .button-2 {
+      background-color: #4b0082; /* Dark purple */
+    }
+    .button-3 {
+      background-color: #d6336c; /* Dark pink */
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button class="button button-1">1</button>
+    <button class="button button-2">2</button>
+    <button class="button button-3">3</button>
+  </div>
+</body>
+</html>
